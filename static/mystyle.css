@@ -1,0 +1,11 @@
+div{
+    background-color: rgb(21, 98, 72);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:8px;
+    margin:8px;
+}
+
+.myimage{
+    width: 50%;
+}
