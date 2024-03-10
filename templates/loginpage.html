@@ -9,27 +9,29 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-6 mx-auto mt-5">
+            <div class="col-6">
                 <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Login</h5>
+                    </div>
                     <div class="card-body">
-                        <form name="myform" action="/userdetails" method="get">
+                        <form action="/student/login" method="post">
                             <div class="form-group mb-3">
-                                <label for="fullname"> Full Name </label>
-                                <input type="text" name="fullname" class="form-control">
+                                <label for="email">EMAIL</label>
+                                <input type="email" class="form-control" name="email"> 
                             </div>
                             <div class="form-group mb-3">
-                                <label for="mobileno">Mobile NO</label>
-                                <input type="tel" name="mobileno" class="form-control">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" class="form-control" name="password"> 
                             </div>
-                            
-                            <input class="btn btn-primary" type="submit">
+                            <button class="btn btn-primary" >Login</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
 </body>
 <script src="/static/js/bootstrap.min.js"></script>
+
 </html>
